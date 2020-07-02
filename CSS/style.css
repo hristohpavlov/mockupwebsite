@@ -1,0 +1,432 @@
+/* Quick disclaimer: I have used html5, css, bootstrap, jquery and action on scroll to compile the final product
+ The only concern that I have is with the loading of the youtube videos in the videography.html page. I believe
+ that this is due to the fact that the owner of the videos has declred that their content can not be embedded*/
+ 
+ 
+ 
+ 
+ /*---Google Fonts --*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;	
+}
+/*Firefox Bug Fix*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*Bootstrap Padding*/
+ [class*="col-"] {
+    padding: 1rem;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: auto;
+}
+/*Navigation Bar*/
+.navbar{
+  padding: 0.8rem;
+}
+/*Sticky class added so the navbar can stick to the top*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-brand{
+  padding-left: 10px;
+}
+.navbar-nav li{
+  padding-right: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.nav-link{
+  font-size: 1.1em !important;
+  display: block;
+}
+/*Carousel*/
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+    font-family: 'Coming Soon', cursive;
+}
+.carousel-caption h3 {
+	font-size: 150%;
+	font-weight: 700;
+	text-shadow: 1px 1px 10px #000;
+    font-family: 'Coming Soon', cursive;
+	padding-bottom: 1rem;
+}
+.btn-primary {
+	background-color: #D9534F;
+	border: 1px solid #D9534F;
+}
+.btn-primary:hover {
+	background-color: #973a37;
+	border: 1px solid #D9534F;
+}
+/*Welcoming paragraph*/
+.jumbotron {
+	padding: 2rem;
+	border-radius: 0;
+}
+.jumbotron button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+	margin-top: -40px;
+}
+.jumbotron buttonfix {
+	padding-left:0.1rem;
+}
+.div col-xs-12{
+	padding-top:0;
+}
+.padding {
+	padding-bottom: 2rem;
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+.welcome {
+	width : 75%;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+.container-fluid button {
+	 left: 3rem;
+}
+/*Four Column Section*/
+.fa-music{
+	color: #d9534f;
+}
+.fa-video{
+	color: #c34a47;
+}
+.fa-book{
+	color: #ad423f;
+}
+.fa-id-card{
+	color: #973a37;
+}
+.fa-music:hover{
+	color: #c34a47;
+}
+.fa-video:hover{
+	color: #ad423f;
+}
+.fa-book:hover{
+	color: #973a37;
+}
+.fa-id-card:hover{
+	color: #82312f;
+}
+.fa-music,.fa-video,.fa-book,.fa-id-card{
+	font-size: 6em;
+	margin:1rem;
+}
+/*Fixed Background Image*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('bg.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*Fixed Background Image-1*/
+.fixed-wrap-1 {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed-1 {
+  background-image: url('bg-1.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*Fixed Background Image-2*/
+.fixed-wrap-2 {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed-2 {
+  background-image: url('bg-2.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*Member cards*/
+.padding-members {
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.right {
+	padding-top: 3rem;
+}
+.container-fluid p {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+.container-fluid h2 {
+	padding: 2rem;
+}
+.col-lg-6 div{
+		padding-left: 2rem;
+}
+.padding-cards{
+	padding-left: 2rem;
+}
+/*Connect*/
+.social a {
+	font-size: 4.5em;
+	padding: 3rem;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+/*Hover*/
+.fa-facebook:hover {
+	color: #355088;
+}
+.fa-twitter:hover {
+	color: #009ad5;
+}
+.fa-google-plus-g:hover {
+	color: #c64333;
+}
+.fa-instagram:hover {
+	color: #487293;
+}
+.fa-youtube:hover {
+	color: #a80000;
+}
+/*footer*/
+footer{
+	background-color: #333333;
+    color: #d5d5d5;
+	padding-top:2rem;
+}
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+    margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+hr.dark{
+	border-top: 1px solid #525252;
+	width: 90%;
+    margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+	width: 100%;
+    margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a{
+	color:#d5d5d5;
+}
+.padding-footer{
+	padding-bottom: 1rem;
+}
+.padding-connect{
+	padding-bottom: 1rem;
+}
+.container-fluid h6 {
+	padding-top: 1rem;
+}
+/*Form*/
+form { 
+margin: 0 auto; 
+text-align: center;
+}
+.alert{
+  display:none;
+}
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:39rem;
+    position:relative;
+    height:0;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* Padding for the table*/
+.padding-table {
+	padding-bottom: 2rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+/*---Media Queries --*/
+/*
+Extra small (xs) devices (phones in portrait mode, less than 576px)
+No media query since this is the default in Bootstrap
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
+*/
+@media (max-width: 1200px){
+.social a{
+	font-size: 5em;
+	padding: 2rem;
+}
+
+/*Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { }*/
+@media (max-width: 992px) {
+.social a{
+	font-size: 5em;
+	padding: 1rem;
+}
+
+/*Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { }*/
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 50%;
+  }
+  .carousel-caption h1{
+    font-size: 300%;
+  }
+  .carousel-caption h3{
+    font-size: 100%;
+  }
+  .carousel-caption .btn{
+    font-size: 100%;
+}
+.social a{
+	font-size: 2.5em;
+	padding: 1rem;
+}
+/*Small (sm) devices (phones in landscape mode, 576px and up)
+@media (min-width: 576px) { }*/
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+  }
+  .carousel-caption h3{
+    font-size: 80%;
+  }
+    .carousel-caption .btn{
+    font-size: 60%;
+}
+.social a{
+	font-size: 2em;
+	padding: 0.5rem;
+}

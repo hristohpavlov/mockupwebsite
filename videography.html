@@ -1,0 +1,187 @@
+
+<!-- Quick disclaimer: I have used html5, css, bootstrap, jquery and action on scroll to compile the final product-->
+<!-- The only concern that I have is with the loading of the youtube videos in the videography.html page. I believe
+ that this is due to the fact that the owner of the videos has declred that their content can not be embedded-->
+ 
+ <!DOCTYPE html>
+    <html lang="en">
+        <head>
+	      <meta charset="utf-8">
+		    <!--Meta tag that tells IE to use the latest engine-->
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<!--Meta tag that sets the page width to the size of the device-->
+	          <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <!--CSS--> 
+	          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+			  <link rel="stylesheet" href="CSS/style.css" >
+			<!--AOS ( Animation on Scrolling ) -->
+	          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+			<!--jQuery-->   
+	          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<!--JavaScript-->
+	          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	          <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+            <!--Page title-->
+	      <title>Slipknot</title>
+        </head>
+        <body>
+  <!-- Navigation/Navigation Bar -->
+       <header>
+	      <nav id="navbarsticky" class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #333333B3;">
+		    <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="200"><img src="images/logo-white.png" width="100" height="40"></a>
+		       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse">
+		         <span class="navbar-toggler-icon"></span>
+               </button>
+		      <div class="collapse navbar-collapse" id="navbarCollapse">
+			    <ul class="navbar-nav ml-auto">
+			    	<li class="nav-item">
+					   <a class="nav-link" href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Home</a>
+				    </li>
+				    <li class="nav-item">
+					  <a class="nav-link" href="discography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Discography</a>
+				    </li>
+				    <li class="nav-item active">
+					  <a class="nav-link" href="videography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">Videography</a>
+				    </li>
+				    <li class="nav-item">
+					  <a class="nav-link" href="bibliography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Bibliography</a>
+				    </li>
+					<li class="nav-item">
+					  <a class="nav-link" href="contactus.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Contact us</a>
+				    </li>
+			    </ul>
+		     </div>
+		    </div>
+	      </nav>
+       </header>
+   <!-- Welcoming Section -->
+                <div class="container-fluid	padding-members text-red" style="padding-top:5rem; background-color:#f4f4f4;">
+				  <div class="row welcome text-center">
+				    <div class="col-12">
+					   <h1 class="display-4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Videos</h1>
+					</div>
+					<hr>
+					  <div class="col-12">
+					     <p class="lead" style="margin-left:-30px;" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">We have been making music for over 10 years thus we have many projects to show. </p>
+					  </div>
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="sid"><h2 style="padding-bottom: 0;"><mark class="red" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Before I forget</mark></h2></a>
+						 <hr class="dark" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <div class="video-container" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800"><iframe width="660" height="415" src="https://www.youtube.com/embed/B1zCN0YhW1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" style="background-color: #f4f4f4">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <div class="video-container" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><iframe width="660" height="415" src="https://www.youtube.com/embed/9gsAz6S_zSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="sid"><h2 style="padding-bottom: 0;"><mark class="red" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Dead Memories</mark></h2></a>
+						 <hr class="dark" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="sid"><h2 style="padding-bottom: 0;"><mark class="red" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Duality</mark></h2></a>
+						 <hr class="dark" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <div class="video-container" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800"><iframe width="660" height="415" src="https://www.youtube.com/embed/6fVE8kSM43I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" style="background-color: #f4f4f4">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <div class="video-container" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><iframe width="660" height="415" src="https://www.youtube.com/embed/LXEKuttVRIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="sid"><h2 style="padding-bottom: 0;" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400"><mark class="red">Snuff</mark></h2></a>
+						 <hr class="dark" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+				  </div>
+				</div>
+   <!-- Connect -->
+               <div class="container-fluid padding-connect">
+			    <div class="row text-center padding-connect">
+				  <div class="col-12 social padding" style="padding-bottom:0; margin-top:20px">
+				    <a href="https://faceboook.com/slipknot" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/slipknot" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.google.com/" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.instagram.com/slipknot/" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-youtube"></i></a>
+				  </div>
+				</div>
+			   </div>
+   <!-- Footer -->
+          <footer>
+		        <div class="container-fluid padding-footer" >
+			      <div class="row text-center padding-footer">
+				     <div class="col-md-4">
+					     <a href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><img src="images/logo-white.png" width="170" height="58"></a>
+						 <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">555-555-5555</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">email@myemail.com</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">100 Street Name</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">City,State,0000</p>
+					 </div>
+					 <div class="col-md-4">
+					    <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+						<h5 data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Our Hours</h5>
+						<hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Monday: 9am-5pm</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Saturday: 10am-4pm</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">Sunday: Closed.</p>
+					 </div>
+					 <div class="col-md-4">
+					    <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+						<h5 data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Service Area</h5>
+						<hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="900">City,State,0000</p>
+					 </div>
+					 <div class="col-12" style="margin-bottom:-31px;">
+					  <hr class="light-100">
+					  <h6 style="padding:0;">Made by Hristo Pavlov &copy: slipknot.com</h6>
+					 </div>
+				  </div>
+				</div>
+		  </footer>
+   <!--AOS(Animation on Scroll)-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

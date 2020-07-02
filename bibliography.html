@@ -1,0 +1,299 @@
+
+<!-- Quick disclaimer: I have used html5, css, bootstrap, jquery and action on scroll to compile the final product-->
+<!-- The only concern that I have is with the loading of the youtube videos in the videography.html page. I believe
+ that this is due to the fact that the owner of the videos has declred that their content can not be embedded-->
+ 
+ <!DOCTYPE html>
+    <html lang="en">
+        <head>
+	      <meta charset="utf-8">
+		    <!--Meta tag that tells IE to use the latest engine-->
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<!--Meta tag that sets the page width to the size of the device-->
+	          <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <!--CSS--> 
+	          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+			  <link rel="stylesheet" href="CSS/style.css" >
+			<!--AOS ( Animation on Scrolling ) -->
+	          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+			<!--jQuery-->   
+	          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<!--JavaScript-->
+	          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	          <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+            <!--Page title-->
+	      <title>Slipknot</title>
+        </head>
+        <body>
+  <!-- Navigation/Navigation Bar -->
+       <header>
+	      <nav id="navbarsticky" class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #333333B3;">
+		    <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="200"><img src="images/logo-white.png" width="100" height="40"></a>
+		       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-controls="navbarCollapse">
+		         <span class="navbar-toggler-icon"></span>
+               </button>
+		      <div class="collapse navbar-collapse" id="navbarCollapse">
+			    <ul class="navbar-nav ml-auto">
+			    	<li class="nav-item">
+					   <a class="nav-link" href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Home</a>
+				    </li>
+				    <li class="nav-item">
+					  <a class="nav-link" href="discography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Discography</a>
+				    </li>
+				    <li class="nav-item">
+					  <a class="nav-link" href="videography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">Videography</a>
+				    </li>
+				    <li class="nav-item active">
+					  <a class="nav-link" href="bibliography.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Bibliography</a>
+				    </li>
+					<li class="nav-item">
+					  <a class="nav-link" href="contactus.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Contact us</a>
+				    </li>
+			    </ul>
+		     </div>
+		    </div>
+	      </nav>
+       </header>
+   <!-- Welcoming Section -->
+                <div class="container-fluid	padding-members text-red"style="padding-top:5rem;">
+				  <div class="row welcome text-center">
+				    <div class="col-12">
+					   <h1 class="display-4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Our Story</h1>
+					</div>
+					<hr>
+					  <div class="col-12">
+					      <p class="lead" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="lead" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="lead" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="lead" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <img src="images/two.png" class="img-fluid img" width="500" height="500" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">
+					  </div>
+				  </div>
+				</div>
+				<hr class="my-4">
+   <!-- Fixed Background -->
+                    <figure>
+                         <div class="fixed-wrap-1">
+  						     <div id="fixed-1">
+							 </div>
+					     </div>
+			        </figure>
+   <!-- Meet the Band -->
+	            <div class="container-fluid padding-members">
+				  <div class="row welcome text-center">
+				    <div class="col-12">
+					    <h1 class="display-4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">Meet the band</h1>
+					</div>
+					<hr>
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="sid"><h2 style="padding-bottom: 0;">Sid Wilson <mark class="red">#0</mark></h2></a>
+						 <hr class="dark">
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p>Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <img src="images/sid.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+				<div class="container-fluid padding-members right" style="background-color: #f4f4f4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <img src="images/joey.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="joey"><h2 style="padding-bottom: 0;">Joey Jordison <mark class="red">#1</mark></h2></a>
+						 <hr class="dark">
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="paul"><h2 style="padding-bottom: 0;">Paul Gray <mark class="red">#2</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <img src="images/paul.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+				<div class="container-fluid padding-members right" style="background-color: #f4f4f4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <img src="images/chris.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="chris"><h2 style="padding-bottom: 0;">Chris Fehn <mark class="red">#3</mark></h2></a>
+						 <hr class="dark">
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="james"><h2 style="padding-bottom: 0;">James Root <mark class="red">#4</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <img src="images/james.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+				<div class="container-fluid padding-members right" style="background-color: #f4f4f4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <img src="images/craig.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="craig"><h2 style="padding-bottom: 0;">Craig Jones <mark class="red">#5</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+
+				  </div>
+				</div>
+   <!--Two section-->
+		        <div class="container-fluid padding-members right" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="shawn"><h2 style="padding-bottom: 0;">Shawn Crahan <mark class="red">#6</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <img src="images/shawn.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+				<div class="container-fluid padding-members right" style="background-color: #f4f4f4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				  	 <div class="col-lg-6">
+					     <img src="images/mick.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				     <div class="col-lg-6">
+					     <a id="mick"><h2 style="padding-bottom: 0;">Mick Thompson <mark class="red">#7</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+				  </div>
+				</div>
+   <!--Two section-->
+				<div class="container-fluid padding-members right" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+				  <div class="row padding-members">
+				     <div class="col-lg-6">
+					     <a id="corey"><h2 style="padding-bottom: 0;">Corey Taylor <mark class="red">#8</mark></h2></a>
+						 <hr class="dark">
+						 <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae. Praesent pharetra quam eu massa mollis sodales. Vestibulum faucibus orci libero, et aliquet urna mattis a. Sed purus nisi, pharetra vulputate dolor non, imperdiet feugiat tortor.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+						  <p class="left">Aliquam eu leo metus. Etiam non commodo augue, at lacinia lorem. Mauris porta sapien erat, eget maximus lorem ornare vitae.</p>
+					     <br>
+					 </div>
+					 <div class="col-lg-6">
+					     <img src="images/corey.jpg" class="img-fluid img" width="500" height="500" style="  border: 1px solid #ff4c4c; border-radius: 4px; padding: 5px;">
+					 </div>
+				  </div>
+				</div>
+   <!-- Connect -->
+               <div class="container-fluid padding-connect" style="background-color: #f4f4f4" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+			    <div class="row text-center padding-connect">
+				  <div class="col-12 social padding" style="padding-bottom:0; margin-top:20px">
+				    <a href="https://faceboook.com/slipknot" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-facebook"></i></a>
+					<a href="https://twitter.com/slipknot" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.google.com/" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.instagram.com/slipknot/" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><i class="fab fa-youtube"></i></a>
+				  </div>
+				</div>
+			   </div>
+   <!-- Footer -->
+          <footer>
+		        <div class="container-fluid padding-footer" >
+			      <div class="row text-center padding-footer">
+				     <div class="col-md-4">
+					     <a href="index.html" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300"><img src="images/logo-white.png" width="170" height="58"></a>
+						 <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">555-555-5555</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">email@myemail.com</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">100 Street Name</p>
+						 <p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">City,State,0000</p>
+					 </div>
+					 <div class="col-md-4">
+					    <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+						<h5 data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Our Hours</h5>
+						<hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">Monday: 9am-5pm</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">Saturday: 10am-4pm</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">Sunday: Closed.</p>
+					 </div>
+					 <div class="col-md-4">
+					    <hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+						<h5 data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="400">Service Area</h5>
+						<hr class="light" data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="500">
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="800">City,State,0000</p>
+						<p data-aos="fade" data-aos-duration="1500" data-aos-once="true" data-aos-delay="900">City,State,0000</p>
+					 </div>
+					 <div class="col-12" style="margin-bottom:-31px;">
+					  <hr class="light-100">
+					  <h6 style="padding:0;">Made by Hristo Pavlov &copy: slipknot.com</h6>
+					 </div>
+				  </div>
+				</div>
+		  </footer>
+   <!--AOS(Animation on Scroll)-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
